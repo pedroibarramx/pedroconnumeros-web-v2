@@ -1,24 +1,34 @@
 {
   "main": [
     {
+      "name": "whatsapp",
+      "icon": "FaWhatsapp",
+      "link": "https://wa.me/523351509075"
+    },
+    {
+      "name": "tiktok",
+      "icon": "FaTiktok",
+      "link": "https://www.tiktok.com/@pedroconnumeros"
+    },
+    {
+      "name": "instagram",
+      "icon": "FaInstagram",
+      "link": "https://www.instagram.com/pedroconnumeros"
+    },
+    {
+      "name": "youtube",
+      "icon": "FaYoutube",
+      "link": "https://www.youtube.com/@pedroconnumeros"
+    },
+    {
       "name": "facebook",
       "icon": "FaFacebook",
-      "link": "https://www.facebook.com/"
+      "link": "https://www.facebook.com/pedroconnumeros"
     },
     {
-      "name": "x",
-      "icon": "FaXTwitter",
-      "link": "https://x.com/"
-    },
-    {
-      "name": "github",
-      "icon": "FaGithub",
-      "link": "https://www.github.com/"
-    },
-    {
-      "name": "linkedin",
-      "icon": "FaLinkedin",
-      "link": "https://www.linkedin.com/"
+      "name": "mail",
+      "icon": "FaEnvelope",
+      "link": "mailto:pedroconnumeros@gmail.com"
     }
   ]
 }

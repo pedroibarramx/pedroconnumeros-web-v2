@@ -1,7 +1,7 @@
 {
   "main": [
     {
-      "name": "Home",
+      "name": "Inicio",
       "url": "/"
     },
     {
@@ -9,67 +9,42 @@
       "url": "/blog"
     },
     {
-      "name": "Pricing",
-      "url": "/pricing"
+      "name": "Sobre mí",
+      "url": "/about"
     },
     {
-      "name": "Contact",
+      "name": "Contacto",
       "url": "/contact"
-    },
-    {
-      "name": "FAQ",
-      "url": "/faq"
-    },
-    {
-      "name": "Elements",
-      "url": "/elements"
     }
   ],
   "footer": [
     {
-      "name": "Company",
+      "name": "Contenido",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "text": "Blog",
+          "url": "/blog"
         },
         {
-          "text": "Quick Start",
-          "url": "#"
-        }
-      ]
-    },
-    {
-      "name": "Product",
-      "menu": [
-        {
-          "text": "Features",
-          "url": "#"
-        },
-        {
-          "text": "Platform",
-          "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
-        }
-      ]
-    },
-    {
-      "name": "Support",
-      "menu": [
-        {
-          "text": "FAQ",
+          "text": "Preguntas frecuentes",
           "url": "/faq"
+        }
+      ]
+    },
+    {
+      "name": "Síguenos",
+      "menu": [
+        {
+          "text": "TikTok",
+          "url": "https://www.tiktok.com/@pedroconnumeros"
         },
         {
-          "text": "Privacy Policy",
-          "url": "/privacy-policy"
+          "text": "Instagram",
+          "url": "https://www.instagram.com/pedroconnumeros"
         },
         {
-          "text": "Terms & Conditions",
-          "url": "/terms-conditions"
+          "text": "YouTube",
+          "url": "https://www.youtube.com/@pedroconnumeros"
         }
       ]
     }
