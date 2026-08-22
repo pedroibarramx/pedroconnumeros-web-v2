@@ -1,0 +1,31 @@
+backend:
+  name: github
+  repo: pedroibarramx/pedroconnumeros-web-v2
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "blog"
+    label: "Artículos"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descripción", name: "description", widget: "text" }
+      - { label: "Imagen de portada", name: "image", widget: "image", required: false }
+      - { label: "Fecha de publicación", name: "date", widget: "datetime" }
+      - { label: "Borrador (no publicar aún)", name: "draft", widget: "boolean", default: false }
+      - { label: "Contenido del artículo", name: "body", widget: "markdown" }
+
+  - name: "homepage"
+    label: "Página de inicio"
+    files:
+      - name: "index"
+        label: "Contenido principal"
+        file: "src/content/homepage/index.md"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Descripción", name: "description", widget: "text" }
